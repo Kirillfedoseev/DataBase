@@ -1,15 +1,19 @@
 # DataBase
-## DB - schema
+## ERR-diagram of DB
 ![alt text](ERR-diagram.png)
 # API to MySql Server
-## Function Example
+## Function get orders (example)
+Get all orders with all information about them<br/>
+### Call
 
-### call
+```python
   mysql.GetOrders():JSON
+```
 
 ### JSON structure
-
-  {
-    OrderID:Int,
-    OrderInfo:String
-  }
+``` json
+{
+  OrderID:Int,
+  OrderInfo:String
+}                          
+```
