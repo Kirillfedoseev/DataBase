@@ -1,0 +1,9 @@
+idAccessRights,access_role
+0,Customer
+1,SysAdmin
+2,SiteAdmin
+3,TopManager
+4,OrderOperator
+5,ControllOperator
+6,TruckDriver
+7,DeliveryOperator
